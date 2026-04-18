@@ -174,3 +174,13 @@ KnowYourDiabetesApp/
  b. frontend
  - streamlit
  - requests
+
+15. LOGGING
+The backend.py file used Python’s built‑in logging module for structured debug output.
+Logging is configured globally using logging.basicConfig with timestamps, log levels, and message formatting to support easier debugging and traceability.
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+logger = logging.getLogger(__name__)
