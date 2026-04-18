@@ -97,7 +97,7 @@ for i in symptoms_main:
 
 def call_main1(payload):
     try:
-        response = requests.post(f"{API_BASE}/predict_main1", json=payload)
+        response = requests.post(f"https://know-your-diabetes-app-1.onrender.com/predict_main1", json=payload)
         if response.status_code == 200:
             return response.json(), None
         else:
@@ -108,7 +108,7 @@ def call_main1(payload):
 
 def call_main2(payload):
     try:
-        response = requests.post(f"{API_BASE}/predict_main2", json=payload)
+        response = requests.post(f"https://know-your-diabetes-app-1.onrender.com/predict_main2", json=payload)
         if response.status_code == 200:
             return response.json(), None
         else:
@@ -119,7 +119,7 @@ def call_main2(payload):
 
 def call_first(payload):
     try:
-        response = requests.post(f"{API_BASE}/predict_first", json=payload)
+        response = requests.post(f"https://know-your-diabetes-app-1.onrender.com/predict_first", json=payload)
         if response.status_code == 200:
             return response.json(), None
         else:
@@ -130,7 +130,7 @@ def call_first(payload):
 
 def call_second(payload):
     try:
-        response = requests.post(f"{API_BASE}/predict_second", json=payload)
+        response = requests.post(f"https://know-your-diabetes-app-1.onrender.com/predict_second", json=payload)
         if response.status_code == 200:
             return response.json(), None
         else:
@@ -141,7 +141,7 @@ def call_second(payload):
 
 def call_markov(payload):
     try:
-        response = requests.post(f"{API_BASE}/predict_markov", json=payload)
+        response = requests.post(f"https://know-your-diabetes-app-1.onrender.com/predict_markov", json=payload)
         if response.status_code == 200:
             return response.json(), None
         else:
