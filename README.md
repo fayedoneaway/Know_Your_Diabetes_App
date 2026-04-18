@@ -129,7 +129,7 @@ KnowYourDiabetesApp/
 │   └── diabetesgen.keras
 │   └── requirements.txt
 ├── frontend/
-│   └── frontend.py
+│   └── streamlit_app.py
 │   └── requirements.txt
 └── notebooks/
 │   └── diabetesgen.ipynb
