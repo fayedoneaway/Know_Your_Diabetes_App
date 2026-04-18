@@ -1,4 +1,4 @@
-Know Your Diabetes App
+Know Your Diabetes App  Live Demo  https://knowyourdiabetesapp-4hkjh3yg9fhywz8cr3i5kh.streamlit.app/
 
 1. OVERVIEW
 This project is a generative style diabetes risk app that uses a probabilistic Deep Learning model and a logic layer to help users understand whether they may fall into one of three categories: no diabetes, prediabetes, or diabetes. I also added a fourth deterministic check for Type 1 diabetes using symptom based rules.
