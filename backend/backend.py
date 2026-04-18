@@ -1143,3 +1143,16 @@ def markov_chain_step(user_features: Dict[str, Any]):
     heap = data_priority(data)
     p = proba_from_heap(heap)
     return markov_transition(p)
+
+
+
+@app.post("/all")
+def all_predictions():
+    return {
+        "pred5": predict_main1(),
+        "pred6": predict_main2(),
+        "pred7": predict_first(),
+        "pred8": predict_second(),
+        "pred9": predict_markov()
+    }
+
